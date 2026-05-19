@@ -451,6 +451,9 @@ export default function App(){
       <div style={{animation:"pulse 2s infinite",fontSize:70,marginBottom:8}}>📈</div>
       <h1 style={{color:"#fff",fontSize:42,fontWeight:900,margin:"0 0 4px",letterSpacing:-2}}>LearnVest</h1>
       <p style={{color:"#a78bfa",fontSize:15,marginBottom:36,textAlign:"center"}}>Trade smarter. Level up faster. 🚀</p>
+      <p style={{color:"rgba(255,255,255,0.35)",fontSize:11,marginBottom:16,textAlign:"center",padding:"0 20px",lineHeight:1.6}}>
+  ⚠️ LearnVest is a simulated investment game for educational purposes only. All trades use virtual money and are not real. This app does not constitute financial advice. Never make real investment decisions based on this app.
+</p>
       <div style={{background:"rgba(255,255,255,0.06)",backdropFilter:"blur(20px)",borderRadius:28,padding:32,width:"100%",maxWidth:400,border:"1px solid rgba(255,255,255,0.12)"}}>
         <p style={{color:"#c4b5fd",fontWeight:700,marginBottom:10}}>Your investor name</p>
         <input value={loginName} onChange={e=>{setLoginName(e.target.value);setLoginError("");}} placeholder="Enter your name..."
