@@ -449,7 +449,7 @@ export default function App(){
   if(screen==="login") return(
     <div style={{minHeight:"100vh",background:"linear-gradient(135deg,#0f0c29,#302b63,#24243e)",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",padding:24,fontFamily:"'Segoe UI',sans-serif"}}>
       <style>{CSS}</style>
-      <div style={{animation:"pulse 2s infinite",fontSize:70,marginBottom:8}}><img src="/logo.png" style={{width:120,height:120,borderRadius:24,marginBottom:8,animation:"pulse 2s infinite"}} /></div>
+      <div style={{animation:"pulse 2s infinite",fontSize:70,marginBottom:8}}><img src="../logo.png" style={{width:120,height:120,borderRadius:24,marginBottom:8,animation:"pulse 2s infinite"}} /></div>
       <h1 style={{color:"#fff",fontSize:42,fontWeight:900,margin:"0 0 4px",letterSpacing:-2}}>LearnVest</h1>
       <p style={{color:"#a78bfa",fontSize:15,marginBottom:36,textAlign:"center"}}>Trade smarter. Level up faster. 🚀</p>
       <p style={{color:"rgba(255,255,255,0.35)",fontSize:11,marginBottom:16,textAlign:"center",padding:"0 20px",lineHeight:1.6}}>
