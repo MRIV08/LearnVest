@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 // ─── PERSISTENCE ──────────────────────────────────────────────────────────────
 const DB_PREFIX = "lv2_";
@@ -1089,6 +1090,7 @@ export default function App(){
           </button>
         ))}
       </div>
+      <Analytics />
     </div>
   );
 }
